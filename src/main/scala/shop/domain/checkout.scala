@@ -25,6 +25,6 @@ object checkout {
                    name: CardName,
                    number: CardNumber,
                    expiration: CardExpiration,
-                   ccv:
+                   ccv: CardCVV)
 
 }

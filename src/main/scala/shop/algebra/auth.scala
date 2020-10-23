@@ -1,6 +1,8 @@
 package shop.algebra
 
-import shop.domain.auth.{JwtToken, Password, User, UserId, UserName}
+import shop.domain.auth.{Password, User, UserId, UserName}
+import dev.profunktor.auth.jwt.JwtToken
+
 
 trait Users[F[_]] {
 
